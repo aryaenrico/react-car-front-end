@@ -3,7 +3,7 @@
 }
 
 .background{
-      background-color: #F1F3FF;
+      background-color:#F1F3FF;
      
 }
 
@@ -17,7 +17,7 @@
 }
 .banner-text{
       margin-top: 90px;
-      font-size: 36px;
+      font-size: 36px !important;
       font-weight: bold;
 }
 

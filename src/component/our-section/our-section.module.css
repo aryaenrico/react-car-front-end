@@ -1,0 +1,33 @@
+.our-section{
+      margin-top: 104px;     
+}
+
+.image-service{
+      max-width: 100%;
+  }
+
+  .section-info{
+      margin-top: 30px;
+}
+
+.section-info p{
+      font-family:  Helvetica, sans-serif;
+      font-size: 16px;
+      font-weight: 300;
+      margin-top: 24px;
+}
+.section-info h2{
+      font-family:  Helvetica, sans-serif;
+      font-size: 24px;
+      font-weight: 700;
+}
+
+.section-info-2 p{
+      font-family:  Helvetica, sans-serif;
+      font-size: 16px;
+      font-weight: 300;
+      display: inline-block;
+      margin-left: 16px;
+      margin-top: -10px;
+
+}

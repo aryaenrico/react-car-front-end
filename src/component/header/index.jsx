@@ -5,8 +5,8 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from './img_car.png'
 function Header (){
-  const Header =`${Style['backgorund']} ${Style['section-header']} pt-3`
-  const H2Style =`${Style['banner-text']} ${Style['font']}`
+  const Header =`${Style['background']} ${Style['section-header']} pt-3`
+  const H2Style =`${Style['banner-text']} `
   const P = `${Style['font']} ` 
   const ButtonSewa = `${Style['btn-border']} ${Style['btn-mulai-sewa']} ${Style['font']}`
   return (
