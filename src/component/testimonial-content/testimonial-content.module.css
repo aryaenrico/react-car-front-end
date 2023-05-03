@@ -1,0 +1,49 @@
+.card-testimonial{
+      min-width: 400px;
+      min-height: 270px;
+      background: #F1F3FF;
+
+}
+
+.section-card{
+      margin-left: auto;
+      margin-right: auto;
+}
+.card-body-testimonial{
+      display: flex;
+      flex-direction: row;
+  }
+
+  .img-container{
+      display: flex;
+      align-items: flex-end;
+      
+  }
+
+  .img-testimonial{
+      margin-top: auto;
+      margin-bottom: auto;
+      padding-left: 30px;
+}
+
+.testimonial-content{
+      margin-top: 40px;
+      justify-content: center;
+}
+
+.testimonial-content-card{
+      padding-top: 50px;
+      margin-left: 46px;
+}
+.testimonial-content-card p{
+      margin-top: 8px;
+      font-family: 'Helvetica';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px;
+}
+.testimonial-content-card p.user{
+      font-family: 'Helvetica';
+      font-weight: bold;
+      font-size: 14px;
+}

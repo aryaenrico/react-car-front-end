@@ -1,0 +1,15 @@
+.testimonial-heading{
+      margin-top: 50px;
+}
+.testimonial-heading h2{
+      font-family: 'Helvetica';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+}
+.testimonial-heading p{
+      font-family: 'Helvetica';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px;
+}
