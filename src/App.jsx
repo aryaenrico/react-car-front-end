@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 // import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button } from 'react-bootstrap';
-import {NavbarCreate,Header,OurService,WhyUs,Testimonial,TestimonialContent} from './component'
+import {NavbarCreate,Header,OurService,WhyUs,Testimonial,TestimonialContent,GettingStarted} from './component'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,6 +17,7 @@ function App() {
     <WhyUs/>
     <Testimonial/>
     <TestimonialContent/>
+    <GettingStarted/>
    
       {/* <div>
         <a href="https://vitejs.dev" target="_blank">
