@@ -1,0 +1,41 @@
+.section-header{
+      margin-top: -50px;
+}
+
+.background{
+      background-color: #F1F3FF;
+     
+}
+
+.btn-mulai-sewa{
+      background-color: #5CB85F;
+      color: white;
+      width: 140px;
+      height: 40px;
+      padding: 8px 12px;
+
+}
+.banner-text{
+      margin-top: 90px;
+      font-size: 36px;
+      font-weight: bold;
+}
+
+.btn-border{
+      border-radius: 4px;
+}
+
+.font{  
+      font-size: 18px;
+}
+
+.gambar{
+      width: 100%;
+ 
+ }
+
+ .ukuran_gambar{
+      width: 100%;
+      height: auto;
+      padding-left: 60px;
+  }

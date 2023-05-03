@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 // import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button } from 'react-bootstrap';
-import {NavbarCreate} from './component'
+import {NavbarCreate,Header} from './component'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,6 +12,7 @@ function App() {
   return (
     <>
     <NavbarCreate/>
+    <Header/>
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
