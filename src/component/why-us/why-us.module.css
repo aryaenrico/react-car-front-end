@@ -1,0 +1,33 @@
+.why-us{
+      margin-top: 120px;
+     
+     
+}
+.why-us h2{
+      font-family: 'Helvetica';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+}
+.why-us p{
+      font-family: 'Helvetica';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px;
+}
+.card-why-us{
+      max-width: 300px;
+      min-height: 280px;
+      padding: 10px;
+}
+.card-body h6{
+      margin-top: 16px
+}
+
+
+.card-body{
+      min-width: 268px;
+      min-height: 196px;
+      padding: 10px;
+}
+

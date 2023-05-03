@@ -9,7 +9,7 @@ function OurService() {
   const InfoSection = `${Style["section-info"]} mt-sm-4`;
   const ListInfo =`${Style["section-info-2"]}  d-flex flex-column `
   return (
-    <Col fluid className={Style["our-section"]}>
+    <Container fluid className={Style["our-section"]}>
       <Row className="justify-content-center">
         <Col lg={6} className="text-center">
           <img src={Image} alt="service" className={Style["image-service"]} />
@@ -54,7 +54,7 @@ function OurService() {
             </div>
         </Col>
       </Row>
-    </Col>
+    </Container>
   );
 }
 
