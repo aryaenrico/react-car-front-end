@@ -7,3 +7,4 @@ export {TestimonialContent} from './testimonial-content';
 export {GettingStarted} from './getting-started';
 export {Faq} from './faq';
 export {Footer} from './footer';
+export {Filter} from './filter';

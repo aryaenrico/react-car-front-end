@@ -1,0 +1,30 @@
+.cars-filter {
+  background-color: #ffff;
+
+  margin-top: -40px;
+}
+.cars-background {
+  background-color: #ffff;
+  padding-left: 20px;
+}
+.select-title {
+  color: #3c3c3c;
+  background-color: #ffff;
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 24px;
+}
+.btn-second {
+  background-color: #5cb85f;
+  color: white;
+  width: 140px;
+  height: 40px;
+  padding: 8px 12px;
+}
+.btn-border {
+  border-radius: 4px;
+}
+.btn-car-filter {
+  margin-top: 75px;
+}

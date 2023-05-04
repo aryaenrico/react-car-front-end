@@ -1,9 +1,8 @@
 
 import Style from './header.module.css';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import {Container,Row,Col,Button} from 'react-bootstrap';
 import Image from './img_car.png'
+import { Link } from "react-router-dom";
 function Header (){
   const Header =`${Style['background']} ${Style['section-header']} pt-3`
   const H2Style =`${Style['banner-text']} `
@@ -21,7 +20,10 @@ function Header (){
                 Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas <br/> terbaik dengan harga
                 terjangkau. Selalu siap melayani kebutuhanmu untuk sewa mobil selama 24 jam.
               </p>
-              <button type="button" className={ButtonSewa} id="btn-mulai-sewa-mobil">Mulai Sewa Mobil2</button>
+              <Link to='/cari-mobil'>
+              <Button type="button" className={ButtonSewa} id="btn-mulai-sewa-mobil">Mulai Sewa Mobil2</Button>
+              </Link>
+             
               </article>
               </Col>
               <Col xs={12} md={5} className='align-items-end flex-column mt-4'>
