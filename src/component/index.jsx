@@ -8,3 +8,4 @@ export {GettingStarted} from './getting-started';
 export {Faq} from './faq';
 export {Footer} from './footer';
 export {Filter} from './filter';
+export {FilterCar} from './listData';

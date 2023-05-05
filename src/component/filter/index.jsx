@@ -3,6 +3,7 @@ import Style from "./filter.module.css";
 import { NavbarCreate } from "../nav";
 import { Header } from "../header";
 import { Footer } from "../footer";
+import { FilterCar } from "../listData";
 
 function Filter() {
   const ButtonStyle = `${Style["btn-border"]} ${Style["btn-car-filter"]} ${Style["btn-second"]}`;
@@ -15,7 +16,7 @@ function Filter() {
           <Row>
             <Col md={3} className={Style["cars-background"]}>
               <p className={Style["select-title"]}>Tipe Driver</p>
-            
+
               <Form.Select>
                 <option value="lepas kunci" selected>
                   Lepas Kunci
@@ -23,9 +24,6 @@ function Filter() {
                 <option value="dengan supir">Dengan Supir</option>
               </Form.Select>
             </Col>
-
-            
-          
 
             <Col md={2} className={Style["cars-background"]}>
               <p className={Style["select-title"]}>Tanggal</p>
@@ -50,7 +48,9 @@ function Filter() {
           </Row>
         </Container>
       </section>
-      <Footer/>
+
+      <FilterCar/>
+      <Footer />
     </>
   );
 }
